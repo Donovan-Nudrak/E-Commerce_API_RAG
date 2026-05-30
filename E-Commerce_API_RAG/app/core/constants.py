@@ -1,0 +1,4 @@
+LOW_STOCK_THRESHOLD = 5
+
+PAYMENT_TYPES = frozenset({"Card", "Bank Transfer", "Cash"})
+DOMAIN_PAYMENT_TYPES = PAYMENT_TYPES
