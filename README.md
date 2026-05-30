@@ -124,8 +124,8 @@ Inactive products and zero-stock items are excluded from vector retrieval. The c
 ### 1. Clone and configure
 
 ```bash
-git clone <repository-url>
-cd E-Commerce
+git clone https://github.com/Donovan-Nudrak/E-Commerce_API_RAG.git
+cd E-Commerce_API_RAG
 cp .env.example .env
 ```
 
@@ -280,7 +280,7 @@ Example response (abbreviated structure):
   "sources": [
     {
       "id": 3,
-      "name": "Camiseta de algodon",
+      "name": "Cotton T-Shirt",
       "price": "12.50",
       "discount_price": null,
       "stock": 200,
@@ -289,7 +289,7 @@ Example response (abbreviated structure):
     },
     {
       "id": 4,
-      "name": "Cafe organico 1kg",
+      "name": "Organic Coffe 1kg",
       "price": "24.90",
       "discount_price": "18.90",
       "stock": 80,
